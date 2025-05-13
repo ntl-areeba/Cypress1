@@ -50,7 +50,7 @@ describe('Cluster Form Automation', () => {
 
     // Step 7: Phone number field 1
     cy.get('#s2id_autogen6').click();
-    cy.get('.select2-results li').contains('03008520728').click();
+    cy.get('.select2-results li').contains('03008520729').click();
 
     // Step 8: Submit the form
     cy.get('#submitButton').click();
